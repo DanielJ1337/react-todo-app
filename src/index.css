@@ -1,13 +1,39 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --flickr-pink: hsla(333, 93%, 56%, 1);
+  --byzantine: hsla(309, 77%, 40%, 1);
+  --purple: hsla(276, 91%, 38%, 1);
+  --purple-2: hsla(268, 88%, 36%, 1);
+  --trypan-blue: hsla(263, 87%, 35%, 1);
+  --trypan-blue-2: hsla(258, 86%, 34%, 1);
+  --persian-blue: hsla(243, 57%, 50%, 1);
+  --ultramarine-blue: hsla(229, 83%, 60%, 1);
+  --dodger-blue: hsla(212, 84%, 61%, 1);
+  --vivid-sky-blue: hsla(194, 85%, 62%, 1);
+  --rounded-corners: 5px;
+  --big-rounded-corners: 8px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Sen", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    45deg,
+    var(--purple) 0%,
+    var(--trypan-blue-2) 100%
+  );
+  color: #fff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
