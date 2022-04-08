@@ -54,7 +54,7 @@ function App() {
 
   // It works but I not completely understand why :D
   const submitEdit = (item) => {
-    const updatedItems = tasksList.map((oldItem) =>
+    tasksList.map((oldItem) =>
       oldItem.id === item.id ? (oldItem.content = editingText) : item.content
     );
 
