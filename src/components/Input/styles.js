@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  width: 400px;
+  width: 100%;
   form {
     display: flex;
     width: 100%;
